@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "WhatsApp Translator",
+    "description": "Translate selected text in WhatsApp Web using Google Translate.",
+    "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "contextMenus",
+      "notifications" 
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "hello_extensions.png"
+    },
+    "icons": {
+      "48": "hello_extensions.png"
+    }
+  }
+  
